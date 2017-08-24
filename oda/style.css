@@ -1,0 +1,53 @@
+body {
+  background: url('img/giphy.gif') #efefef;
+  font-family: 'Comic Sans MS';
+}
+#wrapper {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main {
+  float: right;
+  background: #fff;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid;
+  margin-top: 93px;
+  -webkit-animation: rainbowborder 2s infinite;
+}
+.diskgolf {
+  position: absolute;
+  margin-left: 400px;
+}
+#sidebar {
+  float: left;
+  width: 200px;
+  background: #fff;
+  min-height: 400px;
+  padding: 10px;
+  border: 5px solid pink;
+  text-align: center;
+}
+.crown {
+  position: absolute;
+  margin-left: 6px;
+  margin-top: -43px;
+}
+.rainbow {
+  -webkit-animation: rainbow 2s infinite;
+}
+@-webkit-keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+@-webkit-keyframes rainbowborder {
+  20%{border-color: red;}
+  40%{border-color: yellow;}
+  60%{border-color: green;}
+  80%{border-color: blue;}
+  100%{border-color: orange;}
+}
